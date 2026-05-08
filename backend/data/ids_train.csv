@@ -1,0 +1,13 @@
+duration,src_bytes,dst_bytes,pkts,mean_pkt_len,std_pkt_len,syn_cnt,rst_cnt,proto,service,label
+1.2,500,1200,12,100,20,2,0,tcp,http,0
+2.5,700,1500,15,110,25,1,0,tcp,https,0
+0.8,300,900,9,95,15,0,0,udp,dns,0
+3.0,1000,2500,25,120,30,2,1,tcp,http,0
+0.5,200,100,6,50,10,80,2,tcp,unknown,1
+0.3,150,80,10,40,8,120,3,tcp,unknown,1
+0.2,100,50,20,30,5,250,5,tcp,unknown,1
+0.4,120,60,30,35,7,300,8,tcp,unknown,1
+1.0,400,1000,10,90,18,1,0,tcp,ftp,0
+2.2,650,1400,14,105,22,1,0,tcp,ssh,0
+0.1,80,40,100,25,6,500,10,tcp,unknown,1
+0.2,90,35,120,20,5,600,12,tcp,unknown,1
