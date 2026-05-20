@@ -5,7 +5,7 @@ function App() {
   const [result, setResult] = useState(null);
   const [loading, setLoading] = useState(false);
 
-  const API_URL = "http://127.0.0.1:8000/score";
+  const API_URL = "https://cybersecurity-phishing-scanner.onrender.com/score";
 
   const scanEmail = async () => {
     if (!email.trim()) {
