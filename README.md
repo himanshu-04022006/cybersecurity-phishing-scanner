@@ -1,99 +1,68 @@
-# 🛡️ Cybersecurity Phishing Scanner
+# 🎓 Cybersecurity Awareness Training — Phishing & Threat Simulation
 
-An AI-powered phishing email detection dashboard built using **React.js** and **FastAPI**.  
-This project helps detect suspicious phishing emails and generates a real-time risk score based on phishing-related keywords and patterns.
+An interactive cybersecurity awareness platform that educates users on phishing attacks, password safety, and common cyber threats through simulated real-world scenarios and training material.
 
----
-
-## 🚀 Features
-
-- 🔍 Scan suspicious emails
-- ⚠️ Detect phishing-related content
-- 📊 Generate risk score
-- 🌐 Full-stack frontend + backend integration
-- ⚡ Real-time API communication
-- 🎨 Modern responsive dashboard UI
+🔗 **Live Demo:** [cybersecurity-phishing-scanner.vercel.app](https://cybersecurity-phishing-scanner.vercel.app)
 
 ---
 
-## 🛠️ Tech Stack
+## 📌 What It Does
 
-### Frontend
-- React.js
-- JavaScript
-- HTML/CSS
-
-### Backend
-- Python
-- FastAPI
-- Uvicorn
-
-### Other Tools
-- Git & GitHub
-- VS Code
+- Walks users through **real-world phishing attack scenarios** with examples
+- Explains how to identify suspicious emails, URLs, and social engineering tactics
+- Covers **password safety best practices** with interactive guidance
+- Simulates **employee/student awareness training** used in corporate security programs
+- Designed to reduce human error — the #1 cause of cybersecurity breaches
 
 ---
 
-## 📂 Project Structure
+## 🧠 Key Learning Modules
 
-```bash
-cybersecurity-phishing-scanner/
-│
-├── frontend/
-│   ├── src/
-│   ├── package.json
-│
-├── backend/
-│   ├── app.py
-│   ├── train.py
-│   ├── models/
-│   ├── data/
-│
-├── README.md
-└── requirements.txt
+| Module | Topics Covered |
+|--------|---------------|
+| **Phishing Awareness** | Email spoofing, fake login pages, urgent-language tactics, lookalike domains |
+| **URL Safety** | How to identify malicious links, URL shorteners, HTTP vs HTTPS |
+| **Password Hygiene** | Strong password creation, reuse risks, MFA importance |
+| **Social Engineering** | Pretexting, vishing, smishing, baiting |
+| **Incident Response** | What to do when you suspect a phishing attempt |
 
-⚙️ Installation & Setup
-1️⃣ Clone Repository
-git clone https://github.com/himanshu-04022006/cybersecurity-phishing-scanner.git
+---
 
-2️⃣ Backend Setup
-cd backend
-pip install -r requirements.txt
-python -m uvicorn app:app --reload
+## 🎯 Target Audience
 
-Backend runs on:
-http://127.0.0.1:8000
+- Students learning cybersecurity fundamentals
+- Employees in organizations without formal security training
+- Anyone wanting to understand how phishing attacks work in practice
 
-3️⃣ Frontend Setup
-cd frontend
-npm install
-npm run dev
+---
 
-Frontend runs on:
-http://localhost:5174
+## 🏗️ Tech Stack
 
-<img width="960" height="402" alt="Screenshot 2026-05-08 160350" src="https://github.com/user-attachments/assets/9d4e28ec-d75d-42f7-83c9-dab786f4976a" />
-<img width="688" height="410" alt="Screenshot 2026-05-08 161145" src="https://github.com/user-attachments/assets/981dc5a0-96d1-4e25-88a8-eeeda904e0f9" />
+| Layer | Technology |
+|-------|-----------|
+| Frontend | React.js / Presentation Layer |
+| Content | Cybersecurity research, OWASP guidelines, real phishing case studies |
+| Deployment | Vercel |
 
-🧠 How It Works
-User pastes suspicious email content
-Frontend sends email data to FastAPI backend
-Backend analyzes phishing-related keywords
-Risk score is generated
-Result is displayed on dashboard
+---
 
-🔮 Future Improvements
-Machine Learning based phishing detection
-URL reputation scanning
-Email header analysis
-Dark mode UI
-Database integration
-Deployment on cloud platforms
+## 🔐 Security Relevance
 
-👨‍💻 Author
-Himanshu Sahu
+This project reflects real-world security awareness programs used by organizations to combat phishing, which accounts for over **90% of data breaches** (Verizon DBIR). Concepts covered align with:
+- **OWASP Top 10** — Social Engineering & Phishing
+- **NIST Cybersecurity Framework** — Identify & Protect functions
+- **CompTIA Security+** exam objectives (Domain 1: Threats, Attacks & Vulnerabilities)
 
-Cybersecurity Student | Python & Web Development Enthusiast
+---
 
-LinkedIn: www.linkedin.com/in/himanshu-sahu-a134a0283
-GitHub: https://github.com/himanshu-04022006
+## 📸 Screenshotss / Demo
+
+> Add screenshots of the training UI here to make this section come alive for recruiters.
+
+---
+
+## 👤 Author
+
+**Himanshu Sahu**
+3rd Year B.Tech — Cyber Security | Pune
+[LinkedIn](https://www.linkedin.com/in/himanshu-sahu) • [GitHub](https://github.com/himanshu-04022006)
