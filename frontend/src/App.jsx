@@ -256,9 +256,34 @@ http://fake-bank-login.xyz`}
         </div>
       </section>
 
-      <footer style={styles.footer}>
-        Built by Himanshu Sahu | Cybersecurity Project | React + FastAPI
-      </footer>
+      <footer
+  style={{
+    textAlign: "center",
+    padding: "12px",
+    fontSize: "13px",
+    color: "#888",
+    marginTop: "20px",
+  }}
+>
+  Built by <strong>Himanshu Sahu</strong> · B.Tech Cyber Security, Pune ·
+  <a
+    href="https://github.com/himanshu-04022006"
+    target="_blank"
+    rel="noreferrer"
+  >
+    {" "}
+    GitHub
+  </a>{" "}
+  ·
+  <a
+    href="https://www.linkedin.com/in/himanshu-sahu-a134a0283"
+    target="_blank"
+    rel="noreferrer"
+  >
+    {" "}
+    LinkedIn
+  </a>
+  </footer>
     </div>
   );
 }
