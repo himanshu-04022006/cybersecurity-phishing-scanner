@@ -283,7 +283,7 @@ http://fake-bank-login.xyz`}
     {" "}
     LinkedIn
   </a>
-  </footer>
+</footer>
     </div>
   );
 }
